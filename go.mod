@@ -1,11 +1,10 @@
-module go-service
+module main.go
 
-go 1.12
+go 1.16
 
 require (
 	github.com/labstack/echo v3.3.10+incompatible
-	github.com/labstack/gommon v0.2.8 // indirect
-	github.com/mattn/go-colorable v0.1.2 // indirect
-	github.com/stretchr/testify v1.3.0 // indirect
-	golang.org/x/crypto v0.0.0-20190530122614-20be4c3c3ed5 // indirect
+	github.com/labstack/gommon v0.3.0 // indirect
+	github.com/stretchr/testify v1.7.0 // indirect
+	golang.org/x/crypto v0.0.0-20210421142844-5bf0f12babf7 // indirect
 )
